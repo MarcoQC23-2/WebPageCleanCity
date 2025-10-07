@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 oct. 2025, 9:28:04 p. m.
+    Author     : mco_a
+*/
+
+/* EcoLima estilos personalizados */
+.bg-ecolima {
+    background: linear-gradient(135deg, #C8E6C9);
+    color: black;
+ }
+ .bg-ecolima p {
+    color: #f1f1f1;
+ }
+  
+/* Ajustar tamaño de los íconos de flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem !important;   /* más ancho */
+    height: 3rem!important;  /* más alto */
+    background-size: 100% 100% !important; /* ocupa todo el área */
+}
+
+/* Reducir zona lateral para que estén al borde */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 4% !important;       /* la franja clickeable será más delgada */
+    top: 0 !important;
+    bottom: 0 !important;
+    opacity: 0.9 !important;    /* que se note un poco más */
+}
+
+/* ===== Altura mínima de la página (scroll forzado) ===== */
+body {
+    min-height: 150vh; /* 150% de la altura de la pantalla */
+}
+
+

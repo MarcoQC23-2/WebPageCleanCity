@@ -1,0 +1,3 @@
+marco,marco@gmail.com,123456,admin
+Jordy,jordy@gmail.com,12345,usuario
+ANTONIO,ANTONIO@GMAIL.COM,12345,usuario
